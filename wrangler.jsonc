@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   // Worker name in the Cloudflare dashboard MUST match this.
-  "name": "matejkarolcik",
+  "name": "karolcik",
   "compatibility_date": "2026-06-02",
   "assets": {
     "directory": "./public",
