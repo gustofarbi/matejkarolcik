@@ -1,19 +1,15 @@
 # Launch checklist
 
-Remaining steps to take karolcik.com live. Done so far: site built and pushed, repo public with Discussions enabled, domain registered on Cloudflare.
+Remaining steps to take karolcik.com live. Done so far: site built and pushed, domain registered on Cloudflare. (Repo no longer needs to be public — comments moved from giscus to Cusdis.)
 
-## 1. Giscus comments
+## 1. Cusdis comments
 
-1. Install the giscus GitHub app: https://github.com/apps/giscus → Install → select only `gustofarbi/matejkarolcik`.
-2. Verify the **Announcements** discussion category exists (repo → Discussions → ⚙️ edit categories). Announcements is right for comments — only maintainers/giscus can create discussions there.
-3. Go to https://giscus.app → Configuration:
-   - Repository: `gustofarbi/matejkarolcik`
-   - Page ↔ Discussions mapping: `pathname` (default)
-   - Category: **Announcements**
-4. In the generated "Enable giscus" script, copy:
-   - `data-repo-id` (starts with `R_`)
-   - `data-category-id` (starts with `DIC_`)
-5. Replace `GISCUS_REPO_ID` and `GISCUS_CATEGORY_ID` in `layouts/partials/comments.html`, commit, push.
+1. Sign up at https://cusdis.com (free) → dashboard → **New Website**, domain `karolcik.com`.
+2. Copy the **App ID** from the embed code shown for the new website.
+3. Replace `CUSDIS_APP_ID` in `layouts/partials/comments.html`, commit, push.
+4. Optional: dashboard → website settings → enable **email notifications** for new comments.
+
+Note: comments are hidden until approved in the Cusdis dashboard.
 
 ## 2. Cloudflare Web Analytics
 
@@ -60,7 +56,7 @@ curl -I https://karolcik.com/nonexistent     # 404 (custom 404 page)
 ```
 
 - Homepage shows profile layout, posts list, About in menu
-- A post page renders the giscus widget at the bottom (test a comment — it appears in repo Discussions)
+- A post page renders the Cusdis widget at the bottom (test a comment — it appears in the cusdis.com dashboard pending approval; approve it to make it visible)
 - Analytics: dashboard → Web Analytics shows visits after a few minutes
 - Push a trivial commit → Builds tab shows a new deploy
 

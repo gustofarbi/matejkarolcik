@@ -60,7 +60,7 @@ make serve          # dev server at http://localhost:1313
 |---|---|
 | `summary` | Text shown in the post list (otherwise auto-generated) |
 | `tags` | Taxonomy tags, browsable at `/tags/` |
-| `showComments: false` | Hide giscus comments for this post |
+| `showComments: false` | Hide Cusdis comments for this post |
 | `showTableOfContents: false` | Hide the ToC |
 | `externalUrl` | Post entry links to an external article instead |
 
@@ -79,6 +79,6 @@ make serve          # dev server at http://localhost:1313
 
 - `config/_default/` — Hugo + theme config (no root `hugo.toml` by design)
 - `content/posts/` — blog posts as page bundles
-- `layouts/partials/` — theme overrides: giscus comments, analytics beacon
+- `layouts/partials/` — theme overrides: Cusdis comments, analytics beacon
 - `themes/congo` — theme as git submodule (never edit; override in site root)
 - `wrangler.jsonc` — Cloudflare Workers static-assets config

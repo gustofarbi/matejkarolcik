@@ -1,15 +1,25 @@
-<script src="https://giscus.app/client.js"
-  data-repo="gustofarbi/matejkarolcik"
-  data-repo-id="GISCUS_REPO_ID"
-  data-category="Comments"
-  data-category-id="GISCUS_CATEGORY_ID"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="preferred_color_scheme"
-  data-lang="en"
-  crossorigin="anonymous"
-  async>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="CUSDIS_APP_ID"
+  data-page-id="{{ .RelPermalink }}"
+  data-page-url="{{ .Permalink }}"
+  data-page-title="{{ .Title }}"
+  data-theme="auto">
+</div>
+<!-- No SRI hash: cusdis.com serves an unversioned, mutable bundle — a pinned
+     integrity hash would silently break comments on every upstream update. -->
+<script async defer src="https://cusdis.com/js/cusdis.es.js" crossorigin="anonymous"></script>
+<script>
+  // Sync Cusdis theme with Congo's dark-class toggle (data-theme="auto" only
+  // tracks prefers-color-scheme, not the manual appearance switcher).
+  (function () {
+    var html = document.documentElement;
+    function sync() {
+      if (window.CUSDIS) {
+        window.CUSDIS.setTheme(html.classList.contains("dark") ? "dark" : "light");
+      }
+    }
+    new MutationObserver(sync).observe(html, { attributes: true, attributeFilter: ["class"] });
+    window.addEventListener("load", sync);
+  })();
 </script>

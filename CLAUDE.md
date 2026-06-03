@@ -23,13 +23,13 @@ After cloning: `git submodule update --init` (theme is a submodule).
 
 - **Theme**: Congo, vendored as git submodule at `themes/congo` (branch `stable`). Never edit files inside `themes/congo` — override by placing files at the same relative path in the site root (`layouts/`, `assets/`).
 - **Config**: split across `config/_default/*.toml` (Congo convention). There is deliberately **no root `hugo.toml`** — don't recreate one, and don't duplicate keys across files. `hugo.toml` holds core Hugo settings (baseURL, outputs — home must keep `"JSON"` for Congo search), `params.toml` holds theme params, `languages.en.toml` holds title/author/social links, `menus.en.toml` the nav.
-- **Theme overrides** in `layouts/partials/`: `comments.html` (giscus widget, injected by Congo when `showComments = true`) and `extend-head.html` (Cloudflare Web Analytics beacon, production builds only).
+- **Theme overrides** in `layouts/partials/`: `comments.html` (Cusdis widget, injected by Congo when `showComments = true`) and `extend-head.html` (Cloudflare Web Analytics beacon, production builds only).
 - **Author image** must live at `assets/img/author.jpg` — Congo reads it from `assets/`, not `static/`.
 - **Deploy**: `wrangler.jsonc` defines a pure static-asset Worker (no `main` script) named `karolcik` — that name must match the Worker in the Cloudflare dashboard or builds fail. Workers Builds runs `hugo --minify` then `npx wrangler deploy`; `./public` is gitignored.
 - **Content**: posts are page bundles under `content/posts/<slug>/index.md`. `content/_index.md` front matter feeds the profile-layout homepage.
 
 ## Gotchas
 
-- `baseURL` (https://karolcik.com/) must stay the real domain — giscus maps discussions by pathname and RSS/canonical URLs derive from it.
-- giscus requires this repo to stay **public** with Discussions enabled; comments break silently otherwise.
-- Placeholder tokens `GISCUS_REPO_ID`/`GISCUS_CATEGORY_ID` (`layouts/partials/comments.html`) and `CF_ANALYTICS_TOKEN` (`layouts/partials/extend-head.html`) must be replaced with real values before those features work.
+- `baseURL` (https://karolcik.com/) must stay the real domain — RSS/canonical URLs derive from it. Cusdis maps comments by `data-page-id` (= `.RelPermalink`), so changing a post's URL orphans its comments.
+- Cusdis comments are **hidden until approved** in the cusdis.com dashboard — a missing comment usually means pending moderation, not a bug.
+- Placeholder tokens `CUSDIS_APP_ID` (`layouts/partials/comments.html`) and `CF_ANALYTICS_TOKEN` (`layouts/partials/extend-head.html`) must be replaced with real values before those features work.
