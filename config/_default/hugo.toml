@@ -1,5 +1,5 @@
 theme = "congo"
-baseURL = "https://matejkarolcik.com/"
+baseURL = "https://karolcik.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
