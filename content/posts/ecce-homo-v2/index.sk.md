@@ -1,0 +1,58 @@
++++
+date = '2026-06-04T09:30:08+02:00'
+draft = true
+title = 'Ecce Homo'
++++
+
+# Ecce Homo
+
+Posielam vám to, pretože ste ľudia, ktorí tvoria môj svet, a predsa dlhý čas nikto z vás naozaj nevedel, kto som. Je to úplne moja vina. Bol som expert na skrývanie — svojich chýb, svojich závislostí, svojho vkusu a svojich názorov.
+
+Ale ak mám byť úplne úprimný, **to, za čo sa hanbím najviac a čo som strážil najurputnejšie, je moja hlboká neschopnosť intimity a obrovská hanba, ktorú nosím okolo svojej sexuality.**
+
+Nasledujúce riadky sú spoveďou. Za svoje chyby preberám plnú zodpovednosť. Mojím cieľom nie je niekoho obviňovať, ale vykročiť z tieňa, postaviť sa zoči-voči svojim najhlbším zraniteľnostiam a konečne byť videný.
+
+### Architektúra skrývania
+
+Skrývanie sa mi stalo druhou prirodzenosťou veľmi zavčasu, počas vyrastania v malom východoeurópskom meste. Východiskom môjho detstva bol strach. Otcovou obľúbenou metódou výchovy bolo slovné ponižovanie — krik, nadávanie do hlúpych a vyhrážky. Naučil som sa prežiť tým, že som zabezpečil, aby moje „nie" nikdy nič neznamenalo. Keď mi svojvoľne brali veci, ktoré som mal rád, naučil som sa nebezpečnú lekciu: ak ti na niečom záleží, skry to, inak to bude použité proti tebe.
+
+Nebol som anjel. Ukradol som mu asi 100 eur, aby som spolužiakom kupoval sladkosti, zúfalo túžiac kúpiť si obľúbenosť a prijatie, ktorých sa mi doma nedostávalo. Keď som nedokázal čeliť tyranom na tréningu džuda, klamal som, že tam chodím, a mrazivé zimné dni som trávil prechádzkami vonku, len aby som nemusel byť doma sám s otcom, kým sa nevrátila mama. Naučil som sa zamaskovať svoj des a izolovať sa už zavčasu.
+
+### Jadro hanby: sex a intimita
+
+Pre veľmi skreslený pohľad na intimitu, ktorý som mal doma, som si vyvinul raný spôsob, ako sa s tým vyrovnávať — cez porno. Stalo sa náhradou za skutočné spojenie ešte predtým, než som vôbec vedel, čo skutočné spojenie je.
+
+Kým som sa stal tínedžerom, dvíhal činky a dostával pozornosť od dievčat, vnútorný kritik v mojej hlave bol už plne sformovaný. **Vedel som s istotou — alebo som si to aspoň myslel — aký odporný som ako človek.** Keďže som sa cítil zásadne pokazený, predstava, že by sa nejaké dievča dostalo dosť blízko na to, aby videlo skutočného mňa, ma desila.
+
+Táto hlboko zakorenená úzkosť ovládala celú moju mladosť:
+
+* **Strach zo zraniteľnosti:** Vedel som, že do mňa bolo zaľúbených viacero dievčat, ale nikdy som to nedokázal dotiahnuť do konca. Musel som si dávať pozor, aby som sa neukázal. Keby zistili, kto naozaj som, zničilo by ma to.
+* **Moja prvá skúsenosť:** V osemnástich, tesne predtým, ako som odišiel na vysokú školu do Mníchova, som mal svoj prvý sexuálny zážitok s prostitútkou. Keď ma oslovila, ani som si najprv neuvedomil, že ňou je. Najprv som povedal nie, ale otočil som sa, pretože som zúfalo túžil mať ten míľnik jednoducho za sebou. Nebolo to ani magické, ani výnimočné, a bol som len rád, že som prekročil ten prah.
+* **Používanie látok na spojenie:** Ako dospelý sa alkohol stal mojím spôsobom, ako prehlušiť kričiaci hlas sebanenávisti v mojej hlave. Voči ženám som zaujal ležérny postoj „to je jedno, nemám záujem", len aby som sa vyhol riziku zlyhania alebo odhalenia.
+* **Štyri príležitosti:** Počas celých svojich dvadsiatych rokov sa mi podarilo s niekým vyspať iba štyrikrát a musel som byť na to úplne opitý. Vždy, keď som sa neopil dosť, alebo keď som začal triezvieť v posteli vedľa dievčaťa, dostavila sa panika. Predstieral som, že som ospalý, tvrdil som, že nemám kondóm, alebo som si vymyslel zámienku, aby som mohol ísť domov.
+
+Toto všetko som skrýval, pretože priznať si nedostatok romantického či sexuálneho sebavedomia mi pripadalo ako absolútna slabosť. Dokonca som ľuďom klamal a tvrdil, že chodím s dievčaťom, s ktorým som chodieval liezť, jednoducho preto, že som sa príliš hanbil priznať, že som nikdy nemal priateľku.
+
+### Záchranné laná a zlomové body
+
+Nebol by som tu bez ľudí, ktorí mi hodili záchranné laná, keď som sa topil v tejto izolácii:
+
+* **Herr Nicolini:** Môj učiteľ nemčiny, ktorý bol prvým mužským vzorom, čo mi povedal, aby som sa netrápil pre chyby. Hanbím sa, že som ho po odchode zo Slovenska nikdy nenavštívil. Ďakujem za vašu trpezlivosť.
+* **Chalani z práce v Nemecku:** Ukázali ste mi, ako vyzerajú skutoční muži — nedokonalí, ale priznávajúci si svoje chyby.
+* **Moja teta a môj ujo (Matthias a Klaudia):** Ďakujem, že ste mi ukázali, že rodina môže fungovať s láskou, bez strachu a v úplnom bezpečí. Nikde som sa necítil viac ako doma než u vás v Ebersbergu.
+
+### Otvorené ospravedlnenia a náprava
+
+Aby som mohol žiť v pravde, musím si vyčistiť svedomie ohľadom chvíľ, keď moja nevyriešená bolesť a stres spôsobili, že som ublížil druhým:
+
+* **Mojej sestre, Rastovi, Romanovi a Jurovi:** Okolo dvadsiatich piatich, topiac sa vo finančnom strese zo školného a zápasiac s hľadaním práce, som narazil na hranicu. Nebezpečne som sa opil, dostal som obrovský panický záchvat a pokúsil som sa biť so sochou v Trnave. Bol som agresívny a hlboko sa ospravedlňujem všetkým, ktorí to museli vidieť. Ďakujem, že ste ma podržali, keď som bol na úplnom dne.
+* **Romanovi:** Je mi nesmierne ľúto, že som ťa udrel v Šaštíne. Mal som sa ťa namiesto reakcie násilím opýtať, ako sa máš.
+* **Kataríne:** Bola si skvelá priateľka. Ukončil som naše priateľstvo náhle, bez vysvetlenia. Keď viem, že si vyrastala bez podpory rodičov, to, čo som urobil, bolo kruté. Hlboko to ľutujem.
+
+### Hľa, človek
+
+Mojej rodine: Milujem vás a robíte ma naozaj šťastným. Každý deň pracujem na tom, aby som sa naučil dávať to viac najavo, bez strachu.
+
+Mojej snúbenici: Inšpiruješ ma byť lepším mužom. Bez teba by som nikdy nemal odvahu vykročiť na túto cestu do svetla, ani postaviť sa týmto hlbokým sexuálnym úzkostiam. Sledovať ťa pri tanci je najväčšia radosť môjho života.
+
+Už pred svojím tieňom neutekám. Som pripravený rozprávať, počúvať vás a prestať sa skrývať.
