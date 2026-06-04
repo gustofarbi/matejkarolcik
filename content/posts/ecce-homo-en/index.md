@@ -10,7 +10,7 @@ Plenty of people did. I will leave out certain details in order to preserve the 
 The following lines are a kind of confession. Even though some people are not portrayed in the best light, I do not wish
 to lay blame on anybody. I claim responsibility for all my mistakes.
 
-I am now 32 years old, a proud dog owner and fiancé. I am many things. A son, a brother, a friend, a coworker.
+I am now 32 years old, a proud dog owner and fiancé. I am proud to say I have friends and family.
 None of them truly know who I am or how I feel though. This is on me since I have always been afraid to truly show myself.
 
 I am an expert in hiding. Myself, my mistakes, addictions, tastes, opinions, kinks, you name it. You name it and I hide it :D.
@@ -25,9 +25,9 @@ While growing up I seem to have been a pretty normal, quiet kid. I was afraid to
 I can remember quite vividly was when I was trying to convince my mom to let me stay at home. It got better, but was a pain
 nonetheless. From what I remember I had one or very few friends whom I was pretty jealous of. I wanted them to play with me.
 I don't have many memories from home. Once I played football with my father outside in a park. This was a one-time thing though.
-From my other interactions with him I remember few. None were too nice. This time for me can be characterized by one emotion - fear.
-My father much preferred verbal abuse. Being yelled at whenever I did something out of the ordinary was my baseline.
-I still thought this was normal.
+From my other interactions with him, I remember few. None were too nice. This time for me can be characterized by one emotion - fear.
+My father much preferred verbal abuse. Being yelled at whenever I did something out of the ordinary, called stupid, idiot
+or threatened was my baseline. I still thought this was normal.
 
 I am a quick learner and pain of any kind is a good teacher, so very soon I learned not to do the stuff he disliked.
 There were times when I would prove to myself and him that he didn't have the upper hand. Those are memories I cherish. I stood up to him.
