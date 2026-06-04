@@ -4,8 +4,6 @@ draft = true
 title = 'Ecce Homo'
 +++
 
-# Ecce Homo
-
 Ich schicke euch das, weil ihr die Menschen seid, die meine Welt ausmachen, und doch hat lange Zeit keiner von euch wirklich gewusst, wer ich bin. Das liegt ganz allein an mir. Ich war ein Experte im Verstecken — meiner Fehler, meiner Süchte, meiner Vorlieben und meiner Meinungen.
 
 Aber wenn ich ganz ehrlich bin, **das, wofür ich mich am meisten schäme und was ich am erbittertsten gehütet habe, ist meine tiefe Unfähigkeit zur Intimität und die immense Scham, die ich rund um meine Sexualität mit mir trage.**
@@ -14,7 +12,7 @@ Die folgenden Zeilen sind ein Geständnis. Für meine Fehler übernehme ich die 
 
 ### Die Architektur des Versteckens
 
-Verstecken wurde mir schon sehr früh zur zweiten Natur, während ich in einer kleinen osteuropäischen Stadt aufwuchs. Die Grundstimmung meiner Kindheit war von Angst geprägt. Die bevorzugte Erziehungsmethode meines Vaters war verbale Misshandlung — angeschrien, dumm genannt und bedroht zu werden. Ich lernte zu überleben, indem ich dafür sorgte, dass mein „Nein" nie zählte. Als mir Dinge, die ich liebte, willkürlich weggenommen wurden, lernte ich eine gefährliche Lektion: Wenn dir etwas wichtig ist, verstecke es, sonst wird es gegen dich verwendet.
+Verstecken wurde mir schon sehr früh zur zweiten Natur, während ich aufwuchs. Die Grundstimmung meiner Kindheit war von Angst geprägt. Die bevorzugte Erziehungsmethode meines Vaters war verbale Misshandlung — angeschrien, dumm genannt und bedroht zu werden. Ich lernte zu überleben, indem ich dafür sorgte, dass mein „Nein" nie zählte. Als mir Dinge, die ich liebte, willkürlich weggenommen wurden, lernte ich eine gefährliche Lektion: Wenn dir etwas wichtig ist, verstecke es, sonst wird es gegen dich verwendet.
 
 Ich war kein Engel. Ich stahl ihm etwa 100 Euro, um meinen Mitschülern Süßigkeiten zu kaufen, verzweifelt darum bemüht, mir die Beliebtheit und Anerkennung zu erkaufen, die ich zu Hause nicht bekam. Wenn ich den Tyrannen beim Judotraining nicht gewachsen war, log ich, dass ich hingehe, und verbrachte eiskalte Wintertage damit, draußen herumzulaufen, nur um nicht allein mit meinem Vater zu Hause sein zu müssen, bevor meine Mutter zurückkam. Ich lernte früh, meinen Schrecken zu verbergen und mich zu isolieren.
 
@@ -45,8 +43,8 @@ Ich wäre nicht hier ohne die Menschen, die mir Rettungsleinen zuwarfen, als ich
 
 Um in der Wahrheit zu leben, muss ich mein Gewissen erleichtern in Bezug auf die Momente, in denen mein ungelöster Schmerz und Stress dazu führten, dass ich andere verletzte:
 
-* **An meine Schwester, Rasto, Roman und Juro:** Mit etwa 25, ertrinkend im finanziellen Stress wegen der Studiengebühren und ringend um eine Arbeitsstelle, erreichte ich einen Bruchpunkt. Ich betrank mich gefährlich, hatte eine massive Panikattacke und versuchte, mich mit einer Statue in Trnava zu prügeln. Ich war aggressiv, und ich entschuldige mich zutiefst bei allen, die das mit ansehen mussten. Danke, dass ihr mich unterstützt habt, als ich ganz unten war.
-* **An Roman:** Es tut mir so unendlich leid, dass ich dich in Šaštín geschlagen habe. Ich hätte dich fragen sollen, wie es dir geht, statt mit Gewalt zu reagieren.
+* **An meine Schwester, Rasto, Roman und Juro:** Mit etwa 25, ertrinkend im finanziellen Stress wegen der Studiengebühren, ringend um eine neue Arbeitsstelle und unfähig, um Hilfe zu bitten, erreichte ich einen Bruchpunkt. Ich betrank mich gefährlich, hatte einen Filmriss, eine Panikattacke und versuchte, mich mit einer Statue in Trnava zu prügeln. Ich war aggressiv, und ich entschuldige mich zutiefst bei allen, die das mit ansehen mussten. Danke, dass ihr mich unterstützt habt, als ich ganz unten war.
+* **An Roman:** Es tut mir so unendlich leid, dass ich dich in Šaštín geschlagen habe. Ich hätte dich fragen sollen, ob etwas nicht stimmt, statt mit Gewalt zu reagieren.
 * **An Katarina:** Du warst eine großartige Freundin. Ich beendete unsere Freundschaft abrupt, ohne Erklärung. Da ich weiß, dass du ohne elterliche Unterstützung aufgewachsen bist, war das, was ich tat, grausam. Ich bereue es zutiefst.
 
 ### Sehet, der Mensch

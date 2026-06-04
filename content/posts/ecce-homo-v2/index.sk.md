@@ -4,8 +4,6 @@ draft = true
 title = 'Ecce Homo'
 +++
 
-# Ecce Homo
-
 Posielam vám to, pretože ste ľudia, ktorí tvoria môj svet, a predsa dlhý čas nikto z vás naozaj nevedel, kto som. Je to úplne moja vina. Bol som expert na skrývanie — svojich chýb, svojich závislostí, svojho vkusu a svojich názorov.
 
 Ale ak mám byť úplne úprimný, **to, za čo sa hanbím najviac a čo som strážil najurputnejšie, je moja hlboká neschopnosť intimity a obrovská hanba, ktorú nosím okolo svojej sexuality.**
@@ -14,7 +12,7 @@ Nasledujúce riadky sú spoveďou. Za svoje chyby preberám plnú zodpovednosť.
 
 ### Architektúra skrývania
 
-Skrývanie sa mi stalo druhou prirodzenosťou veľmi zavčasu, počas vyrastania v malom východoeurópskom meste. Východiskom môjho detstva bol strach. Otcovou obľúbenou metódou výchovy bolo slovné ponižovanie — krik, nadávanie do hlúpych a vyhrážky. Naučil som sa prežiť tým, že som zabezpečil, aby moje „nie" nikdy nič neznamenalo. Keď mi svojvoľne brali veci, ktoré som mal rád, naučil som sa nebezpečnú lekciu: ak ti na niečom záleží, skry to, inak to bude použité proti tebe.
+Skrývanie sa mi stalo druhou prirodzenosťou veľmi zavčasu, počas vyrastania. Východiskom môjho detstva bol strach. Otcovou obľúbenou metódou výchovy bolo slovné ponižovanie — krik, nadávanie do hlúpych a vyhrážky. Naučil som sa prežiť tým, že som zabezpečil, aby moje „nie" nikdy nič neznamenalo. Keď mi svojvoľne brali veci, ktoré som mal rád, naučil som sa nebezpečnú lekciu: ak ti na niečom záleží, skry to, inak to bude použité proti tebe.
 
 Nebol som anjel. Ukradol som mu asi 100 eur, aby som spolužiakom kupoval sladkosti, zúfalo túžiac kúpiť si obľúbenosť a prijatie, ktorých sa mi doma nedostávalo. Keď som nedokázal čeliť tyranom na tréningu džuda, klamal som, že tam chodím, a mrazivé zimné dni som trávil prechádzkami vonku, len aby som nemusel byť doma sám s otcom, kým sa nevrátila mama. Naučil som sa zamaskovať svoj des a izolovať sa už zavčasu.
 
@@ -45,8 +43,8 @@ Nebol by som tu bez ľudí, ktorí mi hodili záchranné laná, keď som sa topi
 
 Aby som mohol žiť v pravde, musím si vyčistiť svedomie ohľadom chvíľ, keď moja nevyriešená bolesť a stres spôsobili, že som ublížil druhým:
 
-* **Mojej sestre, Rastovi, Romanovi a Jurovi:** Okolo dvadsiatich piatich, topiac sa vo finančnom strese zo školného a zápasiac s hľadaním práce, som narazil na hranicu. Nebezpečne som sa opil, dostal som obrovský panický záchvat a pokúsil som sa biť so sochou v Trnave. Bol som agresívny a hlboko sa ospravedlňujem všetkým, ktorí to museli vidieť. Ďakujem, že ste ma podržali, keď som bol na úplnom dne.
-* **Romanovi:** Je mi nesmierne ľúto, že som ťa udrel v Šaštíne. Mal som sa ťa namiesto reakcie násilím opýtať, ako sa máš.
+* **Mojej sestre, Rastovi, Romanovi a Jurovi:** Okolo dvadsiatich piatich, topiac sa vo finančnom strese zo školného, zápasiac s hľadaním novej práce a neschopný požiadať o pomoc, som narazil na hranicu. Nebezpečne som sa opil, mal som blackout, panický záchvat a pokúsil som sa biť so sochou v Trnave. Bol som agresívny a hlboko sa ospravedlňujem všetkým, ktorí to museli vidieť. Ďakujem, že ste ma podržali, keď som bol na úplnom dne.
+* **Romanovi:** Je mi nesmierne ľúto, že som ťa udrel v Šaštíne. Mal som sa ťa namiesto reakcie násilím opýtať, či nie je niečo v neporiadku.
 * **Kataríne:** Bola si skvelá priateľka. Ukončil som naše priateľstvo náhle, bez vysvetlenia. Keď viem, že si vyrastala bez podpory rodičov, to, čo som urobil, bolo kruté. Hlboko to ľutujem.
 
 ### Hľa, človek

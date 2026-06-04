@@ -4,8 +4,6 @@ draft = true
 title = 'Ecce Homo'
 +++
 
-# Ecce Homo
-
 I am sending this to you because you are the people who make up my world, yet for a long time, none of you have truly known who I am. That is entirely on me. I have been an expert at hiding—my mistakes, my addictions, my tastes, and my opinions.
 
 But if I am being completely honest, **what I am most ashamed of, and what I have guarded most fiercely, is my deep inability to be intimate and the immense shame I have carried around my sexuality.**
@@ -14,7 +12,7 @@ The following lines are a confession. I claim full responsibility for my mistake
 
 ### The Architecture of Hiding
 
-Hiding became second nature to me when I was very young, growing up in a small Eastern European town. My childhood baseline was defined by fear. My father’s preferred method of parenting was verbal abuse—being yelled at, called stupid, and threatened. I learned to survive by ensuring my "no" never counted. When things I loved were arbitrarily taken away from me, I learned a dangerous lesson: if you care about something, hide it, or it will be used against you.
+Hiding became second nature to me when I was very young, growing up. My childhood baseline was defined by fear. My father’s preferred method of parenting was verbal abuse—being yelled at, called stupid, and threatened. I learned to survive by ensuring my "no" never counted. When things I loved were arbitrarily taken away from me, I learned a dangerous lesson: if you care about something, hide it, or it will be used against you.
 
 I was no angel. I stole about 100 euros from him to buy sweets for my classmates, desperate to buy the popularity and acceptance I wasn't getting at home. When I couldn't face the bullies at judo practice, I lied about going and spent freezing winter days walking outside just to avoid being home alone with my father before my mother got back. I learned to mask my terror and isolate myself early on.
 
@@ -45,8 +43,8 @@ I would not be here without the people who threw me lifelines when I was drownin
 
 To live in the truth, I must clear my conscience regarding the moments where my unresolved pain and stress caused me to hurt others:
 
-* **To my sister, Rasto, Roman, and Juro:** At around 25, drowning in financial stress from university fees and struggling to find a job, I hit a breaking point. I got dangerously drunk, had a massive panic attack, and tried to fight a statue in Trnava. I was aggressive, and I deeply apologize to everyone who had to witness that. Thank you for supporting me when I was at my lowest.
-* **To Roman:** I am so deeply sorry for punching you in Šaštín. I should have asked you how you were doing instead of reacting with violence.
+* **To my sister, Rasto, Roman, and Juro:** At around 25, drowning in financial stress from university fees and struggling to find a new job and being unable to ask for help, I hit a breaking point. I got dangerously drunk, had a blackout, a panic attack, and tried to fight a statue in Trnava. I was aggressive, and I deeply apologize to everyone who had to witness that. Thank you for supporting me when I was at my lowest.
+* **To Roman:** I am so deeply sorry for punching you in Šaštín. I should have asked you if anything was wrong instead of reacting with violence.
 * **To Katarina:** You were a great friend. I ended our friendship abruptly without explanation. Knowing you grew up without parental support, what I did was cruel. I regret it deeply.
 
 ### Behold the Man
