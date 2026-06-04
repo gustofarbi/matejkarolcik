@@ -1,7 +1,7 @@
 +++
 date = '2026-06-03T15:32:08+02:00'
 draft = true
-title = 'Ecce Homo - EN'
+title = 'Ecce Homo'
 +++
 
 I want to start off by saying I am deeply grateful to everybody who helped me on my way. 
@@ -40,7 +40,8 @@ I started internalizing that voice. Or maybe it was already there at this moment
 At this time my father made it abundantly clear to me that we were not friends. He told me so himself once.
 At Christmas one time, I got a deodorant as a present. My father liked the scent of it, and so he took it.
 A lesson was learned that day. If you like something, and it belongs to you, it can be taken away at any time, and you
-have to let them do it . Also, your 'no' does not count. A people pleaser in the making.
+have to let them do it . Also, your 'no' does not count. Another time this happened with a bag I got for Christmas.
+A people pleaser in the making.
 
 I was not an angel though. I stole some money from him, maybe 100 euro all in all. I would exchange them for Slovak crowns
 and would buy myself and my classmates sweets. At least I was popular, right? I haven't felt any remorse for this.

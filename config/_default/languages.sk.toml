@@ -1,0 +1,21 @@
+locale = "sk"
+label = "Slovenčina"
+direction = "ltr"
+weight = 2
+
+title = "Matej Karolcik"
+
+[params]
+  dateFormat = "2. January 2006"
+  description = "Osobný blog Mateja Karolcika"
+
+[params.author]
+  name = "Matej Karolcik"
+  image = "img/author.jpg"
+  headline = "Softvérový inžinier"
+  bio = "Píšem o softvéri a veciach, ktoré tvorím."
+  links = [
+    { github = "https://github.com/gustofarbi" },
+    { x-twitter = "https://x.com/gustofarbi" },
+    { email = "mailto:karolcik.matej@gmail.com" },
+  ]

@@ -1,0 +1,21 @@
+locale = "de"
+label = "Deutsch"
+direction = "ltr"
+weight = 3
+
+title = "Matej Karolcik"
+
+[params]
+  dateFormat = "2. January 2006"
+  description = "Persönlicher Blog von Matej Karolcik"
+
+[params.author]
+  name = "Matej Karolcik"
+  image = "img/author.jpg"
+  headline = "Softwareentwickler"
+  bio = "Ich schreibe über Software und Dinge, die ich baue."
+  links = [
+    { github = "https://github.com/gustofarbi" },
+    { x-twitter = "https://x.com/gustofarbi" },
+    { email = "mailto:karolcik.matej@gmail.com" },
+  ]

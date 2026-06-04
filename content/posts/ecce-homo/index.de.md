@@ -1,7 +1,7 @@
 +++
 date = '2026-06-03T15:32:08+02:00'
 draft = true
-title = 'Ecce Homo - DE'
+title = 'Ecce Homo'
 +++
 
 Zu Beginn möchte ich sagen, dass ich allen zutiefst dankbar bin, die mir auf meinem Weg geholfen haben.
@@ -40,7 +40,8 @@ Ich begann, diese Stimme zu verinnerlichen. Oder vielleicht war sie zu diesem Ze
 Zu dieser Zeit machte mir mein Vater unmissverständlich klar, dass wir keine Freunde waren. Er hat es mir einmal selbst gesagt.
 An einem Weihnachten bekam ich ein Deodorant geschenkt. Meinem Vater gefiel der Duft, und so nahm er es sich.
 An diesem Tag wurde eine Lektion gelernt. Wenn dir etwas gefällt und es dir gehört, kann es dir jederzeit weggenommen werden, und du
-musst es geschehen lassen. Außerdem zählt dein „Nein" nicht. Ein People Pleaser im Werden.
+musst es geschehen lassen. Außerdem zählt dein „Nein" nicht. Ein anderes Mal passierte das mit einer Tasche, die ich zu Weihnachten bekam.
+Ein People Pleaser im Werden.
 
 Ich war allerdings kein Engel. Ich habe ihm etwas Geld gestohlen, insgesamt vielleicht 100 Euro. Ich tauschte es in slowakische Kronen um
 und kaufte mir und meinen Mitschülern Süßigkeiten. Wenigstens war ich beliebt, oder? Ich habe dafür keine Reue empfunden.

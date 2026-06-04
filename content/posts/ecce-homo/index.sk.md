@@ -1,7 +1,7 @@
 +++
 date = '2026-06-03T15:32:08+02:00'
 draft = true
-title = 'Ecce Homo - SK'
+title = 'Ecce Homo'
 +++
 
 Na úvod chcem povedať, že som hlboko vďačný všetkým, ktorí mi na mojej ceste pomohli.
@@ -40,7 +40,8 @@ Ten hlas som si začal zvnútorňovať. Alebo tam možno v tom momente už bol. 
 V tom čase mi otec dal jednoznačne najavo, že nie sme priatelia. Raz mi to povedal aj sám.
 Raz na Vianoce som dostal ako darček dezodorant. Otcovi sa jeho vôňa páčila, a tak si ho vzal.
 V ten deň som dostal lekciu. Ak sa ti niečo páči a patrí to tebe, môže ti to byť kedykoľvek vzaté a ty
-to musíš nechať tak. A tvoje „nie" sa nepočíta. Rodiaci sa people pleaser.
+to musíš nechať tak. A tvoje „nie" sa nepočíta. Inokedy sa to stalo s taškou, ktorú som dostal na Vianoce.
+Rodiaci sa people pleaser.
 
 Nebol som však anjel. Ukradol som mu nejaké peniaze, dokopy možno 100 eur. Zamieňal som ich za slovenské koruny
 a kupoval som sebe a spolužiakom sladkosti. Aspoň som bol obľúbený, však? Necítil som za to žiadne výčitky.
