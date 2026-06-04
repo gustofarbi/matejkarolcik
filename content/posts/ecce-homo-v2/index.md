@@ -1,7 +1,10 @@
 +++
 date = '2026-06-04T09:30:08+02:00'
-draft = true
+draft = false
 title = 'Ecce Homo'
+[build]
+list = "never"
+render = "always"
 +++
 
 I am sending this to you because you are the people who make up my world, and yet for a long time, none of you have truly known who I am. That is entirely on me. I have been an expert at hiding — my mistakes, my addictions, my tastes, my opinions. But if I am being completely honest, what I am most ashamed of, and what I have guarded most fiercely, is my deep inability to be intimate, and the immense shame I have carried around my sexuality.

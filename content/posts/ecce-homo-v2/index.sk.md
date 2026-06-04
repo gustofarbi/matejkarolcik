@@ -1,7 +1,10 @@
 +++
 date = '2026-06-04T09:30:08+02:00'
-draft = true
+draft = false
 title = 'Ecce Homo'
+[build]
+list = "never"
+render = "always"
 +++
 
 Posielam vám to, pretože ste ľudia, ktorí tvoria môj svet, a predsa dlhý čas nikto z vás naozaj nevedel, kto som. Je to úplne moja vina. Bol som expert na skrývanie — svojich chýb, svojich závislostí, svojho vkusu, svojich názorov. Ale ak mám byť úplne úprimný, to, za čo sa hanbím najviac a čo som strážil najurputnejšie, je moja hlboká neschopnosť intimity a obrovská hanba, ktorú nosím okolo svojej sexuality.

@@ -1,7 +1,10 @@
 +++
 date = '2026-06-04T09:30:08+02:00'
-draft = true
+draft = false
 title = 'Ecce Homo'
+[build]
+list = "never"
+render = "always"
 +++
 
 Ich schicke euch das, weil ihr die Menschen seid, die meine Welt ausmachen, und doch hat lange Zeit keiner von euch wirklich gewusst, wer ich bin. Das liegt ganz allein an mir. Ich war ein Experte im Verstecken — meiner Fehler, meiner Süchte, meiner Vorlieben, meiner Meinungen. Aber wenn ich ganz ehrlich bin, das, wofür ich mich am meisten schäme und was ich am erbittertsten gehütet habe, ist meine tiefe Unfähigkeit zur Intimität und die immense Scham, die ich rund um meine Sexualität mit mir trage.
