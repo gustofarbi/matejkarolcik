@@ -10,7 +10,7 @@ Das waren viele. Bestimmte Details werde ich weglassen, um die Privatsphäre der
 Die folgenden Zeilen sind eine Art Beichte. Auch wenn manche Menschen darin nicht im besten Licht erscheinen, möchte ich
 niemandem die Schuld geben. Für alle meine Fehler übernehme ich die Verantwortung.
 
-Ich bin jetzt 32 Jahre alt, stolzer Hundebesitzer und verlobt. Ich bin vieles. Ein Sohn, ein Bruder, ein Freund, ein Kollege.
+Ich bin jetzt 32 Jahre alt, stolzer Hundebesitzer und verlobt. Ich kann mit Stolz sagen, dass ich Freunde und Familie habe.
 Keiner von ihnen weiß jedoch wirklich, wer ich bin oder wie ich mich fühle. Das liegt an mir, denn ich hatte immer Angst, mich wirklich zu zeigen.
 
 Ich bin ein Experte im Verstecken. Mich selbst, meine Fehler, Süchte, Vorlieben, Meinungen, Kinks, was auch immer. Du nennst es und ich verstecke es :D.
@@ -26,8 +26,8 @@ erinnere ich mich ziemlich lebhaft — als ich versuchte, meine Mama zu überred
 eine Qual. Soweit ich mich erinnere, hatte ich einen oder sehr wenige Freunde, auf die ich ziemlich eifersüchtig war. Ich wollte, dass sie mit mir spielen.
 Von zu Hause habe ich nicht viele Erinnerungen. Einmal habe ich mit meinem Vater draußen im Park Fußball gespielt. Das war allerdings eine einmalige Sache.
 Von meinen anderen Interaktionen mit ihm erinnere ich mich an wenige. Keine war besonders schön. Diese Zeit lässt sich für mich mit einer Emotion beschreiben — Angst.
-Mein Vater bevorzugte verbale Misshandlung. Angeschrien zu werden, wann immer ich etwas Ungewöhnliches tat, war mein Normalzustand.
-Ich hielt das immer noch für normal.
+Mein Vater bevorzugte verbale Misshandlung. Angeschrien zu werden, wann immer ich etwas Ungewöhnliches tat, als dumm oder
+Idiot beschimpft oder bedroht zu werden, war mein Normalzustand. Ich hielt das immer noch für normal.
 
 Ich lerne schnell und Schmerz jeder Art ist ein guter Lehrer, also lernte ich sehr bald, die Dinge zu unterlassen, die er nicht mochte.
 Es gab Zeiten, in denen ich mir und ihm bewies, dass er nicht die Oberhand hatte. Diese Erinnerungen halte ich in Ehren. Ich habe mich ihm widersetzt.

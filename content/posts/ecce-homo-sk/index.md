@@ -10,7 +10,7 @@ Bolo ich veľa. Niektoré detaily vynechám, aby som zachoval súkromie zúčast
 Nasledujúce riadky sú akousi spoveďou. Hoci niektorí ľudia v nej nevychádzajú v najlepšom svetle, nechcem
 nikoho obviňovať. Za všetky svoje chyby preberám zodpovednosť.
 
-Mám teraz 32 rokov, som hrdý majiteľ psa a snúbenec. Som mnoho vecí. Syn, brat, priateľ, kolega.
+Mám teraz 32 rokov, som hrdý majiteľ psa a snúbenec. S hrdosťou môžem povedať, že mám priateľov a rodinu.
 Nikto z nich však skutočne nevie, kto som a ako sa cítim. Je to moja vina, pretože som sa vždy bál naozaj ukázať, aký som.
 
 Som expert na skrývanie. Seba, svojich chýb, závislostí, vkusu, názorov, úchyliek, čohokoľvek. Čo si vymenuješ, to skryjem :D.
@@ -26,8 +26,8 @@ si pamätám celkom živo — keď som sa snažil presvedčiť mamu, aby ma nech
 Pokiaľ si pamätám, mal som jedného alebo len veľmi málo kamarátov, na ktorých som dosť žiarlil. Chcel som, aby sa hrali so mnou.
 Z domu nemám veľa spomienok. Raz som s otcom hral vonku v parku futbal. Bola to však jednorazová záležitosť.
 Z ostatných interakcií s ním si pamätám len málo. Žiadna nebola príliš pekná. Toto obdobie môžem charakterizovať jednou emóciou — strachom.
-Otec oveľa radšej používal slovné ponižovanie. Krik vždy, keď som urobil niečo nezvyčajné, bol mojou normou.
-Stále som si myslel, že je to normálne.
+Otec oveľa radšej používal slovné ponižovanie. Krik vždy, keď som urobil niečo nezvyčajné, nadávanie do hlúpych a idiotov
+či vyhrážky boli mojou normou. Stále som si myslel, že je to normálne.
 
 Učím sa rýchlo a bolesť akéhokoľvek druhu je dobrý učiteľ, takže som sa veľmi skoro naučil nerobiť veci, ktoré sa mu nepáčili.
 Boli chvíle, keď som sebe aj jemu dokazoval, že nemá navrch. Tie spomienky si vážim. Postavil som sa mu.
