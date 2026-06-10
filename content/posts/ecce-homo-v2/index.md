@@ -11,7 +11,7 @@ I am sending this to you because you are the people who make up my world, and ye
 
 What follows is a confession. I claim full responsibility for my mistakes. My goal is not to lay blame on anyone, but to step out of the shadows, face my deepest vulnerabilities, and finally be seen.
 
-Hiding became second nature to me when I was very young. My childhood baseline was fear. My father's preferred method of parenting was verbal abuse - being yelled at, called stupid, threatened. I learned to survive by making sure my "no" never counted. When things I loved were arbitrarily taken away from me, I learned a dangerous lesson: if you care about something, hide it, or it will be used against you.
+Hiding became second nature to me when I was very young. My childhood baseline was fear. In a home full of yelling, verbal abuse, and threats, I quickly learned that expressing my own opinion or disagreement was not safe. My "no" meant nothing back then. When I lost things I loved, I took on a defense mechanism that stayed with me for years: if you care about something, hide it, or it will be used against you.
 
 I was no angel. I stole about 100 euros from him to buy sweets for my classmates, desperate to buy the popularity and acceptance I wasn't getting at home. When I couldn't face the bullies at judo practice, I lied about going and spent freezing winter days walking outside, just to avoid being home alone with my father before my mother got back. I learned to mask my terror and isolate myself early on.
 
