@@ -27,7 +27,7 @@ After cloning: `git submodule update --init` (theme is a submodule).
 - **Theme overrides** in `layouts/partials/`: `comments.html` (Cusdis widget, injected by Congo when `showComments = true`) and `extend-head.html` (Cloudflare Web Analytics beacon, production builds only).
 - **Author image** must live at `assets/img/author.jpg` — Congo reads it from `assets/`, not `static/`.
 - **Deploy**: `wrangler.jsonc` defines a pure static-asset Worker (no `main` script) named `karolcik` — that name must match the Worker in the Cloudflare dashboard or builds fail. Workers Builds runs `hugo --minify` then `npx wrangler deploy`; `./public` is gitignored.
-- **Content**: posts are page bundles under `content/posts/<slug>/index.md`. `content/_index.md` front matter feeds the profile-layout homepage. Translations live in the same bundle as `index.<lang>.md` (e.g. `index.sk.md`, `index.de.md`) — Hugo links them automatically by bundle path, no `translationKey` needed. See `content/posts/ecce-homo/` for the pattern.
+- **Content**: posts are page bundles under `content/posts/<slug>/index.md`. `content/_index.md` front matter feeds the profile-layout homepage. Translations live in the same bundle as `index.<lang>.md` (e.g. `index.sk.md`, `index.de.md`) — Hugo links them automatically by bundle path, no `translationKey` needed.
 
 ## Gotchas
 
