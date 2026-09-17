@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Posts about software and things I build."
+description: "Notes on backend engineering — systems, trade-offs, and things that broke."
 ---

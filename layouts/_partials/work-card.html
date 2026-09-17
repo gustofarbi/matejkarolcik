@@ -1,0 +1,14 @@
+{{/* Case-study card. Shared by the homepage landing and /work list. */}}
+<article class="pf-card">
+  <h3 class="pf-card-title">
+    <a class="pf-card-link" href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+  </h3>
+  {{ with .Params.summary }}
+    <p class="pf-card-summary">{{ . | emojify }}</p>
+  {{ end }}
+  {{ with .Params.stack }}
+    <ul class="pf-stack">
+      {{ range . }}<li class="pf-tag">{{ . }}</li>{{ end }}
+    </ul>
+  {{ end }}
+</article>

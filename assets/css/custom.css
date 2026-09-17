@@ -1,0 +1,393 @@
+/*
+  Portfolio styles. Congo auto-loads this file (head.html: resources.Get
+  "css/custom.css").
+
+  Hand-written CSS on purpose: Congo ships a PRECOMPILED Tailwind bundle and
+  this repo has no Tailwind toolchain, so utility classes that the theme does
+  not already emit (grid-cols-3, md:grid-cols-2, ...) simply do not exist.
+  Everything structural here is a pf-* class defined below.
+
+  Colours reuse Congo's scheme variables (--color-neutral-*, set per-scheme in
+  assets/css/schemes/). The accent is ours: slate has no accent of its own,
+  its "primary" ramp is more grey. Warm amber against cool slate is the whole
+  visual idea — one colour, used sparingly, never for body text.
+*/
+
+:root {
+  --pf-accent: #b45309;
+  --pf-accent-soft: rgba(180, 83, 9, 0.1);
+  --pf-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  --pf-rule: rgb(var(--color-neutral-200));
+  --pf-card-bg: rgb(var(--color-neutral-50));
+}
+
+html.dark {
+  --pf-accent: #fbbf24;
+  --pf-accent-soft: rgba(251, 191, 36, 0.14);
+  --pf-rule: rgb(var(--color-neutral-700));
+  --pf-card-bg: rgb(var(--color-neutral-900));
+}
+
+/* ---------- layout ---------- */
+
+.pf-home > * + * {
+  margin-top: 4.5rem;
+}
+
+/* ---------- hero ---------- */
+
+.pf-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding-top: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .pf-hero {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+}
+
+.pf-avatar {
+  width: 7rem;
+  height: 7rem;
+  flex: none;
+  border-radius: 9999px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px var(--pf-rule);
+}
+
+.pf-hero-text {
+  min-width: 0;
+}
+
+.pf-name {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: rgb(var(--color-neutral-900));
+}
+
+html.dark .pf-name {
+  color: rgb(var(--color-neutral));
+}
+
+.pf-role {
+  margin: 0.6rem 0 0;
+  font-family: var(--pf-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pf-accent);
+}
+
+.pf-location {
+  margin: 0.35rem 0 0;
+  font-family: var(--pf-mono);
+  font-size: 0.78rem;
+  color: rgb(var(--color-neutral-500));
+}
+
+.pf-lede {
+  margin-top: 1.25rem;
+}
+
+/* ---------- buttons ---------- */
+
+.pf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.pf-btn {
+  display: inline-block;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  background: rgb(var(--color-neutral-900));
+  color: rgb(var(--color-neutral));
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.pf-btn:hover {
+  background: var(--pf-accent);
+  color: #fff;
+}
+
+html.dark .pf-btn {
+  background: rgb(var(--color-neutral));
+  color: rgb(var(--color-neutral-900));
+}
+
+html.dark .pf-btn:hover {
+  background: var(--pf-accent);
+  color: rgb(var(--color-neutral-900));
+}
+
+.pf-btn-ghost {
+  background: transparent;
+  border-color: var(--pf-rule);
+  color: rgb(var(--color-neutral-700));
+}
+
+.pf-btn-ghost:hover {
+  background: transparent;
+  border-color: var(--pf-accent);
+  color: var(--pf-accent);
+}
+
+html.dark .pf-btn-ghost {
+  background: transparent;
+  color: rgb(var(--color-neutral-300));
+}
+
+html.dark .pf-btn-ghost:hover {
+  background: transparent;
+  color: var(--pf-accent);
+}
+
+/* ---------- sections ---------- */
+
+.pf-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--pf-rule);
+}
+
+.pf-section-title {
+  margin: 0;
+  font-family: var(--pf-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(var(--color-neutral-500));
+}
+
+.pf-more {
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+  color: rgb(var(--color-neutral-500));
+}
+
+.pf-more:hover {
+  color: var(--pf-accent);
+}
+
+/* ---------- case-study cards ---------- */
+
+.pf-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .pf-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.pf-card {
+  position: relative;
+  padding: 1.35rem 1.4rem 1.5rem;
+  border: 1px solid var(--pf-rule);
+  border-radius: 0.5rem;
+  background: var(--pf-card-bg);
+  transition: border-color 0.15s ease;
+}
+
+.pf-card:hover {
+  border-color: var(--pf-accent);
+}
+
+.pf-card-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.pf-card-link {
+  text-decoration: none;
+  color: rgb(var(--color-neutral-900));
+}
+
+html.dark .pf-card-link {
+  color: rgb(var(--color-neutral));
+}
+
+/* Whole card is the click target; the anchor still carries the accessible name. */
+.pf-card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+}
+
+.pf-card-summary {
+  margin: 0.6rem 0 0;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: rgb(var(--color-neutral-600));
+}
+
+html.dark .pf-card-summary {
+  color: rgb(var(--color-neutral-400));
+}
+
+/* ---------- stack tags ---------- */
+
+.pf-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pf-tag {
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--pf-accent-soft);
+  font-family: var(--pf-mono);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pf-accent);
+}
+
+/* ---------- recent posts ---------- */
+
+.pf-postlist {
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pf-postlist-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--pf-rule);
+}
+
+.pf-postlist-link {
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(var(--color-neutral-800));
+}
+
+.pf-postlist-link:hover {
+  color: var(--pf-accent);
+}
+
+html.dark .pf-postlist-link {
+  color: rgb(var(--color-neutral-200));
+}
+
+.pf-meta {
+  font-family: var(--pf-mono);
+  font-size: 0.78rem;
+  white-space: nowrap;
+  color: rgb(var(--color-neutral-500));
+}
+
+/* ---------- contact ---------- */
+
+.pf-contact {
+  padding-top: 2rem;
+  border-top: 1px solid var(--pf-rule);
+}
+
+.pf-contact-body {
+  margin: 0.9rem 0 0;
+  color: rgb(var(--color-neutral-600));
+}
+
+html.dark .pf-contact-body {
+  color: rgb(var(--color-neutral-400));
+}
+
+.pf-contact-email {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-family: var(--pf-mono);
+  font-size: 1.05rem;
+  text-decoration: none;
+  color: var(--pf-accent);
+  border-bottom: 1px solid var(--pf-accent-soft);
+}
+
+.pf-contact-email:hover {
+  border-bottom-color: var(--pf-accent);
+}
+
+/* ---------- about page: experience block ---------- */
+
+.pf-roles {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pf-role-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--pf-rule);
+}
+
+.pf-role-item:last-child {
+  border-bottom: 0;
+}
+
+.pf-role-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+}
+
+.pf-role-title {
+  font-weight: 700;
+  color: rgb(var(--color-neutral-900));
+}
+
+html.dark .pf-role-title {
+  color: rgb(var(--color-neutral));
+}
+
+.pf-role-scope {
+  margin: 0.35rem 0 0;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: rgb(var(--color-neutral-600));
+}
+
+html.dark .pf-role-scope {
+  color: rgb(var(--color-neutral-400));
+}

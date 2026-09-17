@@ -1,4 +1,4 @@
-.PHONY: serve build preview clean post deploy setup
+.PHONY: serve build preview clean post work deploy setup
 
 # Dev server with drafts at http://localhost:1313
 serve:
@@ -23,6 +23,13 @@ ifndef SLUG
 	$(error usage: make post SLUG=my-post-title)
 endif
 	hugo new content posts/$(SLUG)/index.md
+
+# New case study: make work SLUG=order-pipeline
+work:
+ifndef SLUG
+	$(error usage: make work SLUG=order-pipeline)
+endif
+	hugo new content work/$(SLUG)/index.md --kind work
 
 # Manual deploy from local machine (normally CI does this on push)
 deploy: build

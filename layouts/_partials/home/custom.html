@@ -1,0 +1,101 @@
+{{/*
+  Portfolio landing page.
+
+  Reached because params.homepage.layout = "custom". Congo's index.html gates
+  this on templates.Exists "_partials/home/custom.html" — the literal _partials
+  path — so this file must NOT live under layouts/partials/. If it is moved,
+  Congo silently falls back to home/page.html with no build error.
+
+  All pf-* classes are defined in assets/css/custom.css. Congo ships a
+  precompiled Tailwind bundle, so arbitrary utility classes do not exist here.
+*/}}
+{{ $work := (where site.RegularPages "Section" "work").ByWeight }}
+{{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+{{ $workSection := site.GetPage "/work" }}
+{{ $postsSection := site.GetPage "/posts" }}
+{{ $email := site.Language.Params.email }}
+
+<div class="pf-home">
+
+  <header class="pf-hero">
+    {{ with resources.Get (site.Language.Params.Author.image | default "img/author.jpg") }}
+      {{ $avatar := .Fill "320x320 smart" }}
+      <img
+        class="pf-avatar"
+        src="{{ $avatar.RelPermalink }}"
+        width="160"
+        height="160"
+        alt="{{ site.Language.Params.Author.name | default site.Title }}"
+      />
+    {{ end }}
+
+    <div class="pf-hero-text">
+      <h1 class="pf-name">{{ site.Language.Params.Author.name | default site.Title }}</h1>
+      {{ with site.Language.Params.Author.headline }}
+        <p class="pf-role">{{ . }}</p>
+      {{ end }}
+      {{ with site.Language.Params.location }}
+        <p class="pf-location">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Content }}
+        <div class="pf-lede prose dark:prose-invert">{{ . | emojify }}</div>
+      {{ end }}
+
+      <div class="pf-actions">
+        {{ with $email }}
+          <a class="pf-btn" href="mailto:{{ . }}">{{ i18n "home.contact_heading" }}</a>
+        {{ end }}
+        {{ with $workSection }}
+          <a class="pf-btn pf-btn-ghost" href="{{ .RelPermalink }}">{{ i18n "home.selected_work" }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{ with $work }}
+    <section class="pf-section">
+      <div class="pf-section-head">
+        <h2 class="pf-section-title">{{ i18n "home.selected_work" }}</h2>
+        {{ with $workSection }}
+          <a class="pf-more" href="{{ .RelPermalink }}">{{ i18n "home.all_work" }} &rarr;</a>
+        {{ end }}
+      </div>
+      <div class="pf-grid">
+        {{ range first 4 . }}
+          {{ partial "work-card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with $posts }}
+    <section class="pf-section">
+      <div class="pf-section-head">
+        <h2 class="pf-section-title">{{ i18n "home.recent_writing" }}</h2>
+        {{ with $postsSection }}
+          <a class="pf-more" href="{{ .RelPermalink }}">{{ i18n "home.all_posts" }} &rarr;</a>
+        {{ end }}
+      </div>
+      <ul class="pf-postlist">
+        {{ range first 3 . }}
+          <li class="pf-postlist-item">
+            <a class="pf-postlist-link" href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+            <time class="pf-meta" datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ .Date | time.Format (site.Params.dateFormat | default "2 January 2006") }}
+            </time>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+
+  {{ with $email }}
+    <section class="pf-contact">
+      <h2 class="pf-section-title">{{ i18n "home.contact_heading" }}</h2>
+      <p class="pf-contact-body">{{ i18n "home.contact_body" }}</p>
+      <a class="pf-contact-email" href="mailto:{{ . }}">{{ . }}</a>
+    </section>
+  {{ end }}
+
+</div>

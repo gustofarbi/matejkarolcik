@@ -7,8 +7,65 @@ showTableOfContents: false
 showDate: false
 ---
 
-Hi, I'm Matej. I write software, worship my dog, and treat Chupachups as a food group.
+I am a backend developer at [myposter](https://www.myposter.de) in Munich, where
+I have worked since 2018 on the systems behind two print-on-demand brands. Most
+of what I do is Go and infrastructure: the semantic search service that replaced
+Algolia, the rendering pipeline that shows customers their design on a product,
+and the Terraform that provisions both shops.
 
-That's the whole personality. The dog's in your browser tab if you'd like a second opinion.
+I came to software from purchasing and warehouse work, which is probably why I
+care more about systems that keep running than about systems that are clever.
 
-You can find me on [GitHub](https://github.com/gustofarbi) and [X](https://x.com/gustofarbi), or reach me at [karolcik.matej@gmail.com](mailto:karolcik.matej@gmail.com).
+<!-- TODO(content): one line on what you are looking for next. -->
+
+## Experience
+
+<ul class="pf-roles">
+  <li class="pf-role-item">
+    <div class="pf-role-head">
+      <span class="pf-role-title">Backend Developer · myposter GmbH, Munich</span>
+      <span class="pf-meta">December 2018 – present</span>
+    </div>
+    <p class="pf-role-scope">
+      Backend and infrastructure work across two e-commerce brands. Built the
+      Go search service that replaced Algolia with self-hosted semantic search
+      over image embeddings. Own the preview rendering pipeline — Go, Rust and
+      libvips services that render a customer's design onto the product they are
+      buying. Maintain the Terraform modules and environments behind both shops,
+      alongside feature work in the central PHP monolith.
+    </p>
+  </li>
+  <li class="pf-role-item">
+    <div class="pf-role-head">
+      <span class="pf-role-title">Before 2018</span>
+      <span class="pf-meta">2014 – 2018</span>
+    </div>
+    <p class="pf-role-scope">
+      Purchasing and warehouse roles at an electronics manufacturer near Munich.
+    </p>
+  </li>
+</ul>
+
+## Stack
+
+**Day to day** — Go and PHP.
+
+**For the rendering work** — Rust.
+
+**Infrastructure** — Terraform, AWS, Kubernetes, Helm, Docker, Linux, Bash.
+
+**Data and search** — PostgreSQL and pgvector, Qdrant, Redis, image embeddings.
+
+**Used, but would not claim depth** — Python, TypeScript.
+
+**Spoken** — Slovak and Czech (native), German and English (fluent).
+
+## Contact
+
+Email is best: [karolcik.matej@gmail.com](mailto:karolcik.matej@gmail.com). Code
+is on [GitHub](https://github.com/gustofarbi).
+
+---
+
+I also worship my dog and treat Chupa Chups as a food group. The dog is in your
+browser tab if you would like a second opinion.

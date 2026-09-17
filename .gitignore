@@ -6,3 +6,6 @@ node_modules/
 .idea/
 .dev.vars
 .wrangler/
+
+# CV PDFs — contain home address, phone number and DOB. Never commit.
+*.pdf

@@ -1,9 +1,14 @@
 [[main]]
+  name = "Arbeiten"
+  pageRef = "work"
+  weight = 10
+
+[[main]]
   name = "Blog"
   pageRef = "posts"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Über mich"
   pageRef = "about"
-  weight = 20
+  weight = 30

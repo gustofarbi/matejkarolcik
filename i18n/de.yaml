@@ -1,0 +1,12 @@
+# Seitenspezifische UI-Texte. Werden über themes/congo/i18n/de.yaml gemerged.
+home:
+  selected_work: "Ausgewählte Arbeiten"
+  all_work: "Alle Arbeiten"
+  recent_writing: "Neueste Beiträge"
+  all_posts: "Alle Beiträge"
+  contact_heading: "Kontakt"
+  contact_body: "Am besten per E-Mail erreichbar."
+work:
+  stack: "Stack"
+  read_case_study: "Fallstudie lesen"
+  no_entries: "Hier ist noch nichts."

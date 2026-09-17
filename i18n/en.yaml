@@ -1,0 +1,13 @@
+# Site-specific UI strings. These merge over themes/congo/i18n/en.yaml —
+# they do not replace it, so only portfolio-specific keys belong here.
+home:
+  selected_work: "Selected work"
+  all_work: "All work"
+  recent_writing: "Recent writing"
+  all_posts: "All posts"
+  contact_heading: "Get in touch"
+  contact_body: "Best reached by email."
+work:
+  stack: "Stack"
+  read_case_study: "Read case study"
+  no_entries: "Nothing here yet."

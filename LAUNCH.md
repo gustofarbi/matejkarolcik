@@ -1,24 +1,15 @@
 # Launch checklist
 
-Remaining steps to take karolcik.com live. Done so far: site built and pushed, domain registered on Cloudflare. (Repo no longer needs to be public — comments moved from giscus to Cusdis.)
+Remaining steps to take karolcik.com live. Done so far: site built and pushed, domain registered on Cloudflare. (Comments have since been removed from the site entirely.)
 
-## 1. Cusdis comments
-
-1. Sign up at https://cusdis.com (free) → dashboard → **New Website**, domain `karolcik.com`.
-2. Copy the **App ID** from the embed code shown for the new website.
-3. Replace `CUSDIS_APP_ID` in `layouts/partials/comments.html`, commit, push.
-4. Optional: dashboard → website settings → enable **email notifications** for new comments.
-
-Note: comments are hidden until approved in the Cusdis dashboard.
-
-## 2. Cloudflare Web Analytics
+## 1. Cloudflare Web Analytics
 
 1. Cloudflare dashboard → **Analytics & Logs → Web Analytics → Add a site**.
 2. Hostname: `karolcik.com`. Choose the **manual JS snippet** option (not automatic injection — we control the snippet in the partial).
 3. Copy the `token` value from the shown snippet.
-4. Replace `CF_ANALYTICS_TOKEN` in `layouts/partials/extend-head.html`, commit, push.
+4. Replace `CF_ANALYTICS_TOKEN` in `layouts/_partials/extend-head.html`, commit, push.
 
-## 3. Deploy to Cloudflare (Worker + git CI)
+## 2. Deploy to Cloudflare (Worker + git CI)
 
 This connects the repo so every push to `main` builds and deploys automatically.
 
@@ -42,25 +33,25 @@ make deploy           # hugo --minify && npx wrangler deploy
 
 Useful before git CI is connected, or for emergency pushes. Normal flow stays git push → auto-deploy.
 
-## 4. Custom domain
+## 3. Custom domain
 
 1. The Worker → **Settings → Domains & Routes → Add → Custom Domain**.
 2. Add `karolcik.com`. Optionally add `www.karolcik.com` too.
 3. Cloudflare creates the DNS record and TLS cert automatically (zone is already active from domain registration). Takes a minute or two.
 
-## 5. Verify
+## 4. Verify
 
 ```bash
 curl -I https://karolcik.com                 # 200
 curl -I https://karolcik.com/nonexistent     # 404 (custom 404 page)
 ```
 
-- Homepage shows profile layout, posts list, About in menu
-- A post page renders the Cusdis widget at the bottom (test a comment — it appears in the cusdis.com dashboard pending approval; approve it to make it visible)
+- Homepage shows the custom portfolio landing (hero, Selected work, contact)
+- `/work/` lists case studies; `/de/` mirrors the site in German
 - Analytics: dashboard → Web Analytics shows visits after a few minutes
 - Push a trivial commit → Builds tab shows a new deploy
 
-## 6. Leftovers
+## 5. Leftovers
 
 - Replace `assets/img/author.jpg` (currently the Congo example photo) with a real one — same path, then push.
 - Optional: grab `matejkarolcik.com` later → add as second custom domain or bulk-redirect to karolcik.com.

@@ -7,15 +7,18 @@ title = "Matej Karolcik"
 
 [params]
   dateFormat = "2 January 2006"
-  description = "Personal blog of Matej Karolcik"
+  description = "Matej Karolcik — backend developer near Munich. PHP, Go and Rust behind an e-commerce business."
+  email = "karolcik.matej@gmail.com"
+  location = "Grafing bei München"
 
 [params.author]
   name = "Matej Karolcik"
   image = "img/author.jpg"
-  headline = "Software Engineer"
-  bio = "I write about software and things I build."
+  headline = "Backend Developer"
+  # NOTE: Congo's profile partial never renders `bio`. Landing copy lives in
+  # layouts/_partials/home/custom.html and content/_index.md.
+  bio = "Backend developer."
   links = [
     { github = "https://github.com/gustofarbi" },
-    { x-twitter = "https://x.com/gustofarbi" },
     { email = "mailto:karolcik.matej@gmail.com" },
   ]

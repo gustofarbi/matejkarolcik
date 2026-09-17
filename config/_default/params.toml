@@ -2,12 +2,19 @@ colorScheme = "slate"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 
+defaultThemeColor = "#ffffff"
+
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
 enableImageWebp = true
 
 fingerprintAlgorithm = "sha256"
+
+# Only the blog feeds the homepage "recent" list and RSS. Without this, Hugo
+# infers mainSections from whichever section has the most pages — which flips
+# to "work" as soon as a third case study lands.
+mainSections = ["posts"]
 
 [header]
   layout = "basic"
@@ -20,22 +27,22 @@ fingerprintAlgorithm = "sha256"
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
-  showRecent = true
-  recentLimit = 5
+  layout = "custom"
+  showRecent = false
+  recentLimit = 3
 
 [article]
   showDate = true
   showDateUpdated = true
-  showAuthor = true
+  showAuthor = false
   showHeadingAnchors = true
   showPagination = true
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = false
-  showComments = true
-  sharingLinks = ["x-twitter", "linkedin", "reddit", "email"]
+  showComments = false
+  sharingLinks = ["x-twitter", "email"]
 
 [list]
   showSummary = true

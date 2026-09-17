@@ -1,21 +1,22 @@
 locale = "de"
 label = "Deutsch"
 direction = "ltr"
-weight = 3
+weight = 2
 
 title = "Matej Karolcik"
 
 [params]
   dateFormat = "2. January 2006"
-  description = "Persönlicher Blog von Matej Karolcik"
+  description = "Matej Karolcik — Backend-Entwickler bei München. PHP, Go und Rust hinter einem E-Commerce-Geschäft."
+  email = "karolcik.matej@gmail.com"
+  location = "Grafing bei München"
 
 [params.author]
   name = "Matej Karolcik"
   image = "img/author.jpg"
-  headline = "Softwareentwickler"
-  bio = "Ich schreibe über Software und Dinge, die ich baue."
+  headline = "Backend-Entwickler"
+  bio = "Backend-Entwickler."
   links = [
     { github = "https://github.com/gustofarbi" },
-    { x-twitter = "https://x.com/gustofarbi" },
     { email = "mailto:karolcik.matej@gmail.com" },
   ]

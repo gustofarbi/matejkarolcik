@@ -1,0 +1,26 @@
+{{/*
+  /work index — case studies as a card grid, not Congo's chronological
+  article-link list. Deliberately not grouped by year: case studies are ordered
+  by front-matter weight (most convincing first), not by date.
+*/}}
+{{ define "main" }}
+  <header>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+  </header>
+
+  {{ with .Content }}
+    <section class="prose mt-4 max-w-full dark:prose-invert">{{ . | emojify }}</section>
+  {{ end }}
+
+  {{ with .Pages.ByWeight }}
+    <div class="pf-grid pf-grid-wide">
+      {{ range . }}
+        {{ partial "work-card.html" . }}
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="pf-meta mt-8">{{ i18n "work.no_entries" }}</p>
+  {{ end }}
+{{ end }}
