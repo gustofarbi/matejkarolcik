@@ -1,14 +1,11 @@
+# No Blog item: posts are English-only by design, so a German "Blog" link would
+# lead to an empty list. /de/posts/ still builds for anyone who deep-links it.
 [[main]]
   name = "Arbeiten"
   pageRef = "work"
   weight = 10
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 20
-
-[[main]]
   name = "Über mich"
   pageRef = "about"
-  weight = 30
+  weight = 20
