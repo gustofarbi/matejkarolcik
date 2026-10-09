@@ -2,10 +2,15 @@
 home:
   selected_work: "Ausgewählte Arbeiten"
   all_work: "Alle Arbeiten"
-  recent_writing: "Neueste Beiträge"
+  recent_writing: "Texte"
   all_posts: "Alle Beiträge"
   contact_heading: "Kontakt"
-  contact_body: "Am besten per E-Mail erreichbar."
+  contact_body: "Per E-Mail erreichst du mich am sichersten. Ich lese alles und antworte."
+slug:
+  role: "Rolle"
+  based: "Standort"
+  contact: "Kontakt"
+  code: "Code"
 work:
   stack: "Stack"
   read_case_study: "Fallstudie lesen"

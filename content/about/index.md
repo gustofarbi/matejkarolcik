@@ -27,7 +27,7 @@ solving at all.
   <li class="pf-role-item">
     <div class="pf-role-head">
       <span class="pf-role-title">Backend Developer · myposter GmbH, Munich</span>
-      <span class="pf-meta">December 2018 – present</span>
+      <span class="pf-role-when">December 2018 – present</span>
     </div>
     <p class="pf-role-scope">
       Backend and infrastructure work across two e-commerce brands. Built the
@@ -41,7 +41,7 @@ solving at all.
   <li class="pf-role-item">
     <div class="pf-role-head">
       <span class="pf-role-title">Before 2018</span>
-      <span class="pf-meta">2014 – 2018</span>
+      <span class="pf-role-when">2014 – 2018</span>
     </div>
     <p class="pf-role-scope">
       Purchasing and warehouse roles at an electronics manufacturer near Munich.

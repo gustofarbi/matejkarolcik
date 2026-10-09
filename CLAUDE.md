@@ -33,12 +33,17 @@ After cloning: `make setup` (theme is a submodule).
   - `_partials/work-card.html` — case-study card, shared by landing and `/work`
   - `work/list.html` — `/work` index as a card grid ordered by front-matter `weight`
 - **Styling**: `assets/css/custom.css`, auto-loaded by Congo and bundled into `main.bundle.min.css`. All bespoke classes are `pf-*`.
+- **Design direction — prepress.** The site is a proof sheet: `<html>` is a neutral grey viewing surround, `<body>` is the white sheet, magenta crop marks sit at the sheet corners. One accent (`--magenta`), true black ink, Archivo (variable, width axis) for display and Newsreader for body. It comes from the subject matter — six years of renderers, masks and preview pipelines at a company that prints things. Deliberately avoids the generated-portfolio defaults: no all-caps eyebrows, no monospace metadata, no `→` on links, no middle-dot meta strings, no uniform rounded cards.
+- **Fonts are self-hosted** in `static/fonts/` (~208 KB, latin subset, optical-size axis pinned). Not Google-served: embedding Google Fonts on a German-market site is a GDPR liability. Re-download with the axis ranges in the `@font-face` blocks if they ever need refreshing.
 - **Author image** must live at `assets/img/author.jpg` — Congo reads it from `assets/`, not `static/`.
 - **Deploy**: `wrangler.jsonc` defines a pure static-asset Worker (no `main` script) named `karolcik` — that name must match the Worker in the Cloudflare dashboard or builds fail. Workers Builds runs `hugo --minify` then `npx wrangler deploy`; `./public` is gitignored.
 
 ## Gotchas
 
 - **Congo ships a precompiled Tailwind bundle and this repo has no Tailwind toolchain.** Utility classes the theme does not already emit (`grid-cols-3`, `md:grid-cols-2`, …) do **not** exist and render as nothing. Write plain CSS in `assets/css/custom.css` instead of reaching for utilities, or you get a silently unstyled page.
+- **Congo puts the page wrapper classes on `<body>` itself** — `m-auto flex h-screen max-w-7xl …`. There is no wrapper div, so a selector like `body > div.m-auto` matches nothing. Style `body` directly, and add an attribute selector (`body.m-auto[class*="max-w-7xl"]`) to outrank Congo's own two-class `dark:bg-neutral-800`.
+- **Hugo's CSS minifier strips the space after `var()` inside a shorthand value.** `background: … var(--len) 1px …` minifies to `var(--len)1px`, which is invalid, and the whole declaration is silently dropped — the dev server looks fine, the built site does not. Use longhand properties (`background-image` / `-position` / `-size`) when a custom property sits next to another value.
+- **Headless Chrome will not go below a 500px window width.** Screenshots requested at 390px lay out at 500px and get cropped, which looks exactly like a horizontal-overflow bug. Breakpoints below 500px cannot be verified this way.
 - **`layouts/_partials/home/custom.html` must stay at that exact path.** `themes/congo/layouts/index.html` gates it on `templates.Exists "_partials/home/custom.html"` — the literal `_partials/` path. Move it to `layouts/partials/` and Congo silently falls back to `home/page.html` with no build error.
 - **`params.mainSections = ["posts"]` is load-bearing.** Without it Hugo infers main sections from whichever has the most pages, which flips the homepage "recent" list and RSS over to `work/` as soon as a third case study lands.
 - `baseURL` (https://karolcik.com/) must stay the real domain — RSS/canonical URLs derive from it.

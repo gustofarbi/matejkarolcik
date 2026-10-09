@@ -28,7 +28,7 @@ Systemen verlaufen und welche Probleme überhaupt lösenswert sind.
   <li class="pf-role-item">
     <div class="pf-role-head">
       <span class="pf-role-title">Backend-Entwickler · myposter GmbH, München</span>
-      <span class="pf-meta">Dezember 2018 – heute</span>
+      <span class="pf-role-when">Dezember 2018 – heute</span>
     </div>
     <p class="pf-role-scope">
       Backend- und Infrastrukturarbeit für zwei E-Commerce-Marken. Aufbau des
@@ -43,7 +43,7 @@ Systemen verlaufen und welche Probleme überhaupt lösenswert sind.
   <li class="pf-role-item">
     <div class="pf-role-head">
       <span class="pf-role-title">Vor 2018</span>
-      <span class="pf-meta">2014 – 2018</span>
+      <span class="pf-role-when">2014 – 2018</span>
     </div>
     <p class="pf-role-scope">
       Einkauf und Lagerlogistik bei einem Elektronikhersteller im Raum München.

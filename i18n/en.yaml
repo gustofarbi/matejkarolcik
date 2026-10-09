@@ -3,10 +3,15 @@
 home:
   selected_work: "Selected work"
   all_work: "All work"
-  recent_writing: "Recent writing"
+  recent_writing: "Writing"
   all_posts: "All posts"
   contact_heading: "Get in touch"
-  contact_body: "Best reached by email."
+  contact_body: "Email is the surest way to reach me. I read everything, and I answer."
+slug:
+  role: "Role"
+  based: "Based"
+  contact: "Contact"
+  code: "Code"
 work:
   stack: "Stack"
   read_case_study: "Read case study"

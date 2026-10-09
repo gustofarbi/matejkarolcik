@@ -1,13 +1,12 @@
 {{/*
-  Portfolio landing page.
+  Portfolio landing — a proof sheet.
 
   Reached because params.homepage.layout = "custom". Congo's index.html gates
   this on templates.Exists "_partials/home/custom.html" — the literal _partials
-  path — so this file must NOT live under layouts/partials/. If it is moved,
-  Congo silently falls back to home/page.html with no build error.
+  path — so this file must NOT move to layouts/partials/. If it does, Congo
+  silently falls back to home/page.html with no build error.
 
-  All pf-* classes are defined in assets/css/custom.css. Congo ships a
-  precompiled Tailwind bundle, so arbitrary utility classes do not exist here.
+  pf-* classes live in assets/css/custom.css.
 */}}
 {{ $work := (where site.RegularPages "Section" "work").ByWeight }}
 {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
@@ -18,83 +17,79 @@
 <div class="pf-home">
 
   <header class="pf-hero">
-    {{ with resources.Get (site.Language.Params.Author.image | default "img/author.jpg") }}
-      {{ $avatar := .Fill "320x320 smart" }}
-      <img
-        class="pf-avatar"
-        src="{{ $avatar.RelPermalink }}"
-        width="160"
-        height="160"
-        alt="{{ site.Language.Params.Author.name | default site.Title }}"
-      />
+    <div class="pf-plate-row">
+      {{ with resources.Get (site.Language.Params.Author.image | default "img/author.jpg") }}
+        {{ $plate := .Fill "480x480 smart" }}
+        <img
+          class="pf-plate"
+          src="{{ $plate.RelPermalink }}"
+          width="240"
+          height="240"
+          alt="{{ site.Language.Params.Author.name | default site.Title }}"
+        />
+      {{ end }}
+      <h1 class="pf-name">
+        {{ range split (site.Language.Params.Author.name | default site.Title) " " }}
+          <span>{{ . }}</span>
+        {{ end }}
+      </h1>
+    </div>
+
+    {{ with .Content }}
+      <div class="pf-lede">{{ . | emojify }}</div>
     {{ end }}
 
-    <div class="pf-hero-text">
-      <h1 class="pf-name">{{ site.Language.Params.Author.name | default site.Title }}</h1>
+    <div class="pf-slug">
       {{ with site.Language.Params.Author.headline }}
-        <p class="pf-role">{{ . }}</p>
+        <div class="pf-slug-cell">{{ i18n "slug.role" }}<b>{{ . }}</b></div>
       {{ end }}
       {{ with site.Language.Params.location }}
-        <p class="pf-location">{{ . }}</p>
+        <div class="pf-slug-cell">{{ i18n "slug.based" }}<b>{{ . }}</b></div>
       {{ end }}
-
-      {{ with .Content }}
-        <div class="pf-lede prose dark:prose-invert">{{ . | emojify }}</div>
+      {{ with $email }}
+        <div class="pf-slug-cell">{{ i18n "slug.contact" }}<b><a href="mailto:{{ . }}">{{ . }}</a></b></div>
       {{ end }}
-
-      <div class="pf-actions">
-        {{ with $email }}
-          <a class="pf-btn" href="mailto:{{ . }}">{{ i18n "home.contact_heading" }}</a>
-        {{ end }}
-        {{ with $workSection }}
-          <a class="pf-btn pf-btn-ghost" href="{{ .RelPermalink }}">{{ i18n "home.selected_work" }}</a>
-        {{ end }}
-      </div>
+      <div class="pf-slug-cell">{{ i18n "slug.code" }}<b><a href="https://github.com/gustofarbi" rel="me">github.com/gustofarbi</a></b></div>
     </div>
   </header>
 
   {{ with $work }}
     <section class="pf-section">
-      <div class="pf-section-head">
-        <h2 class="pf-section-title">{{ i18n "home.selected_work" }}</h2>
-        {{ with $workSection }}
-          <a class="pf-more" href="{{ .RelPermalink }}">{{ i18n "home.all_work" }} &rarr;</a>
-        {{ end }}
-      </div>
-      <div class="pf-grid">
+      <h2 class="pf-section-title">{{ i18n "home.selected_work" }}</h2>
+      <ul class="pf-index">
         {{ range first 4 . }}
           {{ partial "work-card.html" . }}
         {{ end }}
-      </div>
+      </ul>
+      {{ with $workSection }}
+        <p class="pf-index-more"><a class="pf-link" href="{{ .RelPermalink }}">{{ i18n "home.all_work" }}</a></p>
+      {{ end }}
     </section>
   {{ end }}
 
   {{ with $posts }}
     <section class="pf-section">
-      <div class="pf-section-head">
-        <h2 class="pf-section-title">{{ i18n "home.recent_writing" }}</h2>
-        {{ with $postsSection }}
-          <a class="pf-more" href="{{ .RelPermalink }}">{{ i18n "home.all_posts" }} &rarr;</a>
-        {{ end }}
-      </div>
-      <ul class="pf-postlist">
+      <h2 class="pf-section-title">{{ i18n "home.recent_writing" }}</h2>
+      <ul class="pf-writing">
         {{ range first 3 . }}
-          <li class="pf-postlist-item">
-            <a class="pf-postlist-link" href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
-            <time class="pf-meta" datetime="{{ .Date.Format "2006-01-02" }}">
+          <li class="pf-writing-row">
+            <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+            <time class="pf-date" datetime="{{ .Date.Format "2006-01-02" }}">
               {{ .Date | time.Format (site.Params.dateFormat | default "2 January 2006") }}
             </time>
           </li>
         {{ end }}
       </ul>
+      {{ with $postsSection }}
+        <p class="pf-index-more"><a class="pf-link" href="{{ .RelPermalink }}">{{ i18n "home.all_posts" }}</a></p>
+      {{ end }}
     </section>
   {{ end }}
 
   {{ with $email }}
     <section class="pf-contact">
-      <h2 class="pf-section-title">{{ i18n "home.contact_heading" }}</h2>
-      <p class="pf-contact-body">{{ i18n "home.contact_body" }}</p>
-      <a class="pf-contact-email" href="mailto:{{ . }}">{{ . }}</a>
+      <a class="pf-contact-address" href="mailto:{{ . }}">{{ . }}</a>
+      <p class="pf-contact-note">{{ i18n "home.contact_body" }}</p>
     </section>
   {{ end }}
 
