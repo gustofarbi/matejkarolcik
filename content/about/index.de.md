@@ -17,7 +17,10 @@ Ich bin über Einkauf und Lagerlogistik zur Softwareentwicklung gekommen.
 Vermutlich liegt es daran, dass mir Systeme, die zuverlässig laufen, wichtiger
 sind als Systeme, die clever sind.
 
-<!-- TODO(content): ein Satz dazu, was du als Nächstes suchst. -->
+Ich suche derzeit nichts Neues. Was sich geändert hat, ist, worauf ich meine
+Aufmerksamkeit richten möchte: weniger auf die Implementierung selbst, mehr auf
+die Entscheidungen darüber — Architektur, wo die Schnittstellen zwischen
+Systemen verlaufen und welche Probleme überhaupt lösenswert sind.
 
 ## Berufserfahrung
 
@@ -61,6 +64,11 @@ sind als Systeme, die clever sind.
 **Benutzt, aber ohne Tiefe zu behaupten** — Python, TypeScript.
 
 **Sprachen** — Slowakisch und Tschechisch (Muttersprache), Deutsch und Englisch (fließend).
+
+## Ausbildung
+
+B.A. Business Administration — International University, Bad Honnef / München.
+Duales Studium, 2014–2017.
 
 ## Kontakt
 

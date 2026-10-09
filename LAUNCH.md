@@ -4,10 +4,14 @@ Remaining steps to take karolcik.com live. Done so far: site built and pushed, d
 
 ## 1. Cloudflare Web Analytics
 
-1. Cloudflare dashboard → **Analytics & Logs → Web Analytics → Add a site**.
-2. Hostname: `karolcik.com`. Choose the **manual JS snippet** option (not automatic injection — we control the snippet in the partial).
-3. Copy the `token` value from the shown snippet.
-4. Replace `CF_ANALYTICS_TOKEN` in `layouts/_partials/extend-head.html`, commit, push.
+Nothing to install. karolcik.com is proxied through Cloudflare, so Web Analytics
+uses **automatic setup** — the beacon is injected at the edge as HTML passes
+through. The manual JS snippet (and its token) is only for sites that are *not*
+proxied through Cloudflare, which is why no token exists for this site.
+
+To check or change it: Cloudflare dashboard → **Web Analytics** → find
+`karolcik.com` → **Manage site**. Options there are automatic (default),
+automatic excluding EU visitors, manual snippet, or disabled.
 
 ## 2. Deploy to Cloudflare (Worker + git CI)
 

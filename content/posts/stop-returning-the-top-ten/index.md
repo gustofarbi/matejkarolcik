@@ -92,10 +92,15 @@ method assumes a curve with a shape.
 
 **Everything is equally bad.** A query matching nothing produces a flat line of
 low scores. A flat line has no elbow, so the maximum distance lands somewhere
-arbitrary and you confidently return junk. Normalisation actively hides this,
-because it stretches any range to `[0, 1]`. Check the *absolute* top score
-separately and return nothing when it is too low — the elbow tells you where
-quality falls off, not whether there was any.
+arbitrary. Normalisation hides this by construction: it stretches any range to
+`[0, 1]`, so a dismal top score and an excellent one look identical once
+normalised.
+
+Which is the real limitation of the whole approach. An elbow cut answers *where
+does quality fall off*, and it cannot answer *was there any quality to begin
+with*. Those are two separate questions, and the method only addresses one of
+them — so it wants pairing with an absolute minimum score, applied before
+normalisation throws the scale away.
 
 **Everything is equally good.** The mirror image, and mostly harmless: you fall
 back to roughly a fixed count, which is where you started.

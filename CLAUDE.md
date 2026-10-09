@@ -31,7 +31,6 @@ After cloning: `make setup` (theme is a submodule).
 - **Theme overrides** in `layouts/`:
   - `_partials/home/custom.html` — the portfolio landing page
   - `_partials/work-card.html` — case-study card, shared by landing and `/work`
-  - `_partials/extend-head.html` — Cloudflare Web Analytics beacon, production builds only
   - `work/list.html` — `/work` index as a card grid ordered by front-matter `weight`
 - **Styling**: `assets/css/custom.css`, auto-loaded by Congo and bundled into `main.bundle.min.css`. All bespoke classes are `pf-*`.
 - **Author image** must live at `assets/img/author.jpg` — Congo reads it from `assets/`, not `static/`.
@@ -45,5 +44,5 @@ After cloning: `make setup` (theme is a submodule).
 - `baseURL` (https://karolcik.com/) must stay the real domain — RSS/canonical URLs derive from it.
 - `params.author.bio` is set but Congo's profile partial never renders it. Landing copy lives in `content/_index.md` and the custom homepage layout.
 - Comments are removed site-wide (no Cusdis, no giscus). `article.showComments = false`.
-- `CF_ANALYTICS_TOKEN` in `layouts/_partials/extend-head.html` is still a placeholder — the beacon does nothing until it is replaced.
+- **Analytics needs no code.** karolcik.com is proxied through Cloudflare, so Web Analytics injects its beacon at the edge automatically — there is no snippet and no token in this repo. Don't add one back. (Automatic injection breaks only if a `Cache-Control: no-transform` header appears; the Worker currently sends `public, max-age=0, must-revalidate`.)
 - Case studies follow an agreed disclosure rule: employer may be named, architecture at conference-talk depth, **no real internal metrics** — relative framing only.

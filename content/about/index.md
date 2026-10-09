@@ -16,7 +16,10 @@ and the Terraform that provisions both shops.
 I came to software from purchasing and warehouse work, which is probably why I
 care more about systems that keep running than about systems that are clever.
 
-<!-- TODO(content): one line on what you are looking for next. -->
+I am not looking to move. What has changed is what I want to spend attention
+on: less of the implementation itself, more of the decisions above it —
+architecture, where the seams between systems go, and which problems are worth
+solving at all.
 
 ## Experience
 
@@ -59,6 +62,11 @@ care more about systems that keep running than about systems that are clever.
 **Used, but would not claim depth** — Python, TypeScript.
 
 **Spoken** — Slovak and Czech (native), German and English (fluent).
+
+## Education
+
+B.A. Business Administration — International University, Bad Honnef / Munich.
+Dual study programme, 2014–2017.
 
 ## Contact
 
